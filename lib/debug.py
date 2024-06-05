@@ -12,5 +12,6 @@ def reset_database():
     Department.create("Human Resources", "Building C, East Wing")
     Department.create("Accounting", "Building B, 1st Floor")
 
+
 reset_database()
 ipdb.set_trace()
